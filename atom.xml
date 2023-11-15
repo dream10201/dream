@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>往昔</title>
+  
+  <subtitle>时不可兮再得 聊逍遥兮容与</subtitle>
+  <link href="https://blog.bidd.net/atom.xml" rel="self"/>
+  
+  <link href="https://blog.bidd.net/"/>
+  <updated>2022-11-05T02:19:00.000Z</updated>
+  <id>https://blog.bidd.net/</id>
+  
+  <author>
+    <name>多云</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Debian多网口桥接</title>
+    <link href="https://blog.bidd.net/2022/11/05/f1abf9fa27e9/"/>
+    <id>https://blog.bidd.net/2022/11/05/f1abf9fa27e9/</id>
+    <published>2022-11-05T02:12:00.000Z</published>
+    <updated>2022-11-05T02:19:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;路由器只有两个lan口，我的小主机有四个网口，利用bridge-utils把其他网口桥接起来，当交换机用。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://blog.bidd.net/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="bridge" scheme="https://blog.bidd.net/tags/bridge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MacOS开机自启</title>
+    <link href="https://blog.bidd.net/2022/10/04/555afeda2546/"/>
+    <id>https://blog.bidd.net/2022/10/04/555afeda2546/</id>
+    <published>2022-10-04T19:01:00.000Z</published>
+    <updated>2022-10-12T16:10:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;MacOS设置开机自启&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.bidd.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="MacOS" scheme="https://blog.bidd.net/tags/MacOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux创建raid阵列</title>
+    <link href="https://blog.bidd.net/2022/09/27/676f3926a532/"/>
+    <id>https://blog.bidd.net/2022/09/27/676f3926a532/</id>
+    <published>2022-09-27T16:11:00.000Z</published>
+    <updated>2022-09-27T16:15:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;RAID简述&quot;&gt;&lt;a href=&quot;#RAID简述&quot; class=&quot;headerlink&quot; title=&quot;RAID简述&quot;&gt;&lt;/a&gt;RAID简述&lt;/h1&gt;&lt;p&gt;磁盘阵列（Redundant Arrays of Independent Disks，RAID），是把多个物理磁盘组成一个阵列,当作一个逻辑磁盘使用,它将数据以分段或条带的方式储存在不同的磁盘中，这样可以通过在多个磁盘上同时存储和读取数据来大幅提高存储系统的数据吞吐量。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.bidd.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="raid" scheme="https://blog.bidd.net/tags/raid/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Debian11设置静态DNS</title>
+    <link href="https://blog.bidd.net/2022/08/28/075cb1f31751/"/>
+    <id>https://blog.bidd.net/2022/08/28/075cb1f31751/</id>
+    <published>2022-08-28T03:00:00.000Z</published>
+    <updated>2022-08-28T03:04:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;临时&quot;&gt;&lt;a href=&quot;#临时&quot; class=&quot;headerlink&quot; title=&quot;临时&quot;&gt;&lt;/a&gt;临时&lt;/h1&gt;&lt;p&gt;编辑 &amp;#x2F;etc&amp;#x2F;resolv.conf&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;nameserver 114.114.114.114&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.bidd.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="DNS" scheme="https://blog.bidd.net/tags/DNS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VN007+开启adb并获取超级密码</title>
+    <link href="https://blog.bidd.net/2021/12/21/4e118219428e/"/>
+    <id>https://blog.bidd.net/2021/12/21/4e118219428e/</id>
+    <published>2021-12-21T08:26:00.000Z</published>
+    <updated>2022-06-20T02:14:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;某通VN007+获取adb并修改超级用户密码&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.bidd.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="vn007+" scheme="https://blog.bidd.net/tags/vn007/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>win11去除快捷方式角标</title>
+    <link href="https://blog.bidd.net/2021/10/08/0291a838b8aa/"/>
+    <id>https://blog.bidd.net/2021/10/08/0291a838b8aa/</id>
+    <published>2021-10-08T09:25:00.000Z</published>
+    <updated>2021-10-08T09:25:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;打开注册表位置（不存在则创建）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;HKEY_LOCAL_MACHINE&#92;SOFTWARE&#92;Microsoft&#92;Windows&#92;CurrentVersion&#92;Explorer&#92;Shell Icons&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.bidd.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="win11" scheme="https://blog.bidd.net/tags/win11/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Firefox虚拟定位</title>
+    <link href="https://blog.bidd.net/2021/08/24/415b5ef2cea3/"/>
+    <id>https://blog.bidd.net/2021/08/24/415b5ef2cea3/</id>
+    <published>2021-08-24T03:25:00.000Z</published>
+    <updated>2021-08-24T03:39:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;打开火狐浏览器，地址栏输入&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;about:config&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.bidd.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="firefox" scheme="https://blog.bidd.net/tags/firefox/"/>
+    
+    <category term="location" scheme="https://blog.bidd.net/tags/location/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>openwrt报错误USER_REQUEST</title>
+    <link href="https://blog.bidd.net/2021/08/13/2b20b438391e/"/>
+    <id>https://blog.bidd.net/2021/08/13/2b20b438391e/</id>
+    <published>2021-08-13T06:41:00.000Z</published>
+    <updated>2021-08-13T07:33:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;openwrtw拨号提示 USER_REQUEST，我这里的原因是因为删除了 WAN6,把 WAN6 添加回来就可以了。&lt;br&gt;但是我的固件是自己编译的，完全删除了IPv6,这里提供另一种解决方案。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.bidd.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="openwrt" scheme="https://blog.bidd.net/tags/openwrt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>aria2下载完成后文件整理</title>
+    <link href="https://blog.bidd.net/2021/08/13/d1a39ece145c/"/>
+    <id>https://blog.bidd.net/2021/08/13/d1a39ece145c/</id>
+    <published>2021-08-13T06:11:00.000Z</published>
+    <updated>2021-08-13T06:29:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;aria2下载路劲下一堆.aria2文件，乱七八糟的。&lt;br&gt;网上搜了一圈解决方案，都是通过event删除这个文件，&lt;br&gt;这里提供另一种方法，下载完成后将文件移动到另一个目录去。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.bidd.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="aria2" scheme="https://blog.bidd.net/tags/aria2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sudoers文件变可写解决方法</title>
+    <link href="https://blog.bidd.net/2021/07/16/81753e6953f2/"/>
+    <id>https://blog.bidd.net/2021/07/16/81753e6953f2/</id>
+    <published>2021-07-16T02:47:00.000Z</published>
+    <updated>2021-07-16T02:53:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;尝试执行如下命令&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pkexec visudo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://blog.bidd.net/categories/Linux/"/>
+    
+    
+    <category term="sudo" scheme="https://blog.bidd.net/tags/sudo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派优化设置</title>
+    <link href="https://blog.bidd.net/2021/06/01/3718fab325d7/"/>
+    <id>https://blog.bidd.net/2021/06/01/3718fab325d7/</id>
+    <published>2021-06-01T04:05:00.000Z</published>
+    <updated>2021-06-01T09:35:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;备忘&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="raspberry pi" scheme="https://blog.bidd.net/categories/raspberry-pi/"/>
+    
+    
+    <category term="config" scheme="https://blog.bidd.net/tags/config/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>dnsmasq指定客户端dns</title>
+    <link href="https://blog.bidd.net/2020/12/12/47c544afc362/"/>
+    <id>https://blog.bidd.net/2020/12/12/47c544afc362/</id>
+    <published>2020-12-12T16:08:00.000Z</published>
+    <updated>2020-12-12T16:18:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;路由器为不同的设备单独设置不同的DNS服务器&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="dnsmasq" scheme="https://blog.bidd.net/categories/dnsmasq/"/>
+    
+    
+    <category term="dns" scheme="https://blog.bidd.net/tags/dns/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MacOS烧录img</title>
+    <link href="https://blog.bidd.net/2020/12/12/1bf711704b89/"/>
+    <id>https://blog.bidd.net/2020/12/12/1bf711704b89/</id>
+    <published>2020-12-12T02:58:00.000Z</published>
+    <updated>2020-12-12T03:08:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;转载自&lt;a href=&quot;https://www.cnblogs.com/zhaocundang/p/7784872.html&quot;&gt;Mac下给SD卡烧录树莓派系统&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Mac" scheme="https://blog.bidd.net/categories/Mac/"/>
+    
+    
+    <category term="烧录" scheme="https://blog.bidd.net/tags/%E7%83%A7%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git代理设置</title>
+    <link href="https://blog.bidd.net/2020/12/09/48da15f48d93/"/>
+    <id>https://blog.bidd.net/2020/12/09/48da15f48d93/</id>
+    <published>2020-12-09T09:09:00.000Z</published>
+    <updated>2021-01-05T13:08:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;转载自:&lt;a href=&quot;https://gist.github.com/chuyik/02d0d37a49edc162546441092efae6a1&quot;&gt;macOS 给 Git(Github) 设置代理（HTTP&amp;#x2F;SSH）&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="github" scheme="https://blog.bidd.net/categories/github/"/>
+    
+    
+    <category term="proxy" scheme="https://blog.bidd.net/tags/proxy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MariaDB安装</title>
+    <link href="https://blog.bidd.net/2020/12/03/4d69f12c4d5a/"/>
+    <id>https://blog.bidd.net/2020/12/03/4d69f12c4d5a/</id>
+    <published>2020-12-03T11:52:00.000Z</published>
+    <updated>2020-12-03T13:28:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h1&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;apt install mariadb-server -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="数据库" scheme="https://blog.bidd.net/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="mariadb" scheme="https://blog.bidd.net/tags/mariadb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo安装依赖ejs报错</title>
+    <link href="https://blog.bidd.net/2020/08/18/f24295742262/"/>
+    <id>https://blog.bidd.net/2020/08/18/f24295742262/</id>
+    <published>2020-08-18T10:02:56.000Z</published>
+    <updated>2020-08-18T10:02:56.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;报错信息如下&quot;&gt;&lt;a href=&quot;#报错信息如下&quot; class=&quot;headerlink&quot; title=&quot;报错信息如下&quot;&gt;&lt;/a&gt;报错信息如下&lt;/h1&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta prompt_&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;language-bash&quot;&gt;ejs@2.7.4 postinstall /root/sw/blog/node_modules/hexo-renderer-ejs/node_modules/ejs&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta prompt_&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;language-bash&quot;&gt;node ./postinstall.js&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;internal/modules/cjs/loader.js:1023&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  throw err;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  ^&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Error: Cannot find module &amp;#x27;/root/sw/blog/node_modules/hexo-renderer-ejs/node_modules/ejs/postinstall.js&amp;#x27;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1020:15)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    at Function.Module._load (internal/modules/cjs/loader.js:890:27)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    at internal/main/run_main_module.js:17:47 &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  code: &amp;#x27;MODULE_NOT_FOUND&amp;#x27;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  requireStack: []&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR! code ELIFECYCLE&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR! errno 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR! ejs@2.7.4 postinstall: `node ./postinstall.js`&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR! Exit status 1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR! Failed at the ejs@2.7.4 postinstall script.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR! This is probably not a problem with npm. There is likely additional logging output above.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR! A complete log of this run can be found in:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm ERR!     /root/.npm/_logs/2020-08-18T08_24_47_894Z-debug.log&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="nodejs" scheme="https://blog.bidd.net/categories/nodejs/"/>
+    
+    
+    <category term="hexo" scheme="https://blog.bidd.net/tags/hexo/"/>
+    
+    <category term="ejs" scheme="https://blog.bidd.net/tags/ejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派开启热点并设置透明代理</title>
+    <link href="https://blog.bidd.net/2019/06/05/f343eab208cb/"/>
+    <id>https://blog.bidd.net/2019/06/05/f343eab208cb/</id>
+    <published>2019-06-05T02:12:19.000Z</published>
+    <updated>2019-10-14T06:12:32.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;因为我的ps4需要。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="树莓派" scheme="https://blog.bidd.net/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+    
+    <category term="proxy" scheme="https://blog.bidd.net/tags/proxy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派开启看门狗</title>
+    <link href="https://blog.bidd.net/2019/05/17/969679a66394/"/>
+    <id>https://blog.bidd.net/2019/05/17/969679a66394/</id>
+    <published>2019-05-17T15:10:33.000Z</published>
+    <updated>2019-05-17T15:10:33.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;备：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://blog.bidd.net/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="树莓派" scheme="https://blog.bidd.net/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+    <category term="看门狗" scheme="https://blog.bidd.net/tags/%E7%9C%8B%E9%97%A8%E7%8B%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>汇编命令及OD常用命令及断点设置</title>
+    <link href="https://blog.bidd.net/2019/04/23/09eea0b73f9f/"/>
+    <id>https://blog.bidd.net/2019/04/23/09eea0b73f9f/</id>
+    <published>2019-04-23T09:50:54.000Z</published>
+    <updated>2019-04-23T09:50:54.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.52pojie.cn/thread-211740-1-1.html&quot;&gt;转载自吾爱破解&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://blog.bidd.net/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="x64dbg" scheme="https://blog.bidd.net/tags/x64dbg/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C#指定dll加载路径</title>
+    <link href="https://blog.bidd.net/2019/04/18/509afdeff4af/"/>
+    <id>https://blog.bidd.net/2019/04/18/509afdeff4af/</id>
+    <published>2019-04-18T02:29:09.000Z</published>
+    <updated>2019-04-18T02:29:09.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;多个dll分文件夹存放，保证程序能正常加载&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://blog.bidd.net/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="dll" scheme="https://blog.bidd.net/tags/dll/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>免费证书LetEncrypt申请</title>
+    <link href="https://blog.bidd.net/2019/04/04/5612b7135287/"/>
+    <id>https://blog.bidd.net/2019/04/04/5612b7135287/</id>
+    <published>2019-04-04T02:24:45.000Z</published>
+    <updated>2019-04-04T02:24:45.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Let’s Encrypt 是一个由非营利性组织 互联网安全研究小组（ISRG）提供的免费、自动化和开放的证书颁发机构（CA）。&lt;/p&gt;
+&lt;p&gt;简单的说，借助 Let’s Encrypt 颁发的证书可以为我们的网站免费启用 HTTPS(SSL&amp;#x2F;TLS) 。&lt;/p&gt;
+&lt;p&gt;嗯，重要的是免费&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.bidd.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="https" scheme="https://blog.bidd.net/tags/https/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C#内嵌dll方法</title>
+    <link href="https://blog.bidd.net/2018/12/13/6dd28a05a0bc/"/>
+    <id>https://blog.bidd.net/2018/12/13/6dd28a05a0bc/</id>
+    <published>2018-12-13T09:53:28.000Z</published>
+    <updated>2018-12-13T09:53:28.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;转载修改自&lt;a href=&quot;https://blog.csdn.net/lin381825673/article/details/39122257&quot;&gt;https://blog.csdn.net/lin381825673/article/details/39122257&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="C#" scheme="https://blog.bidd.net/categories/C/"/>
+    
+    
+    <category term="dll" scheme="https://blog.bidd.net/tags/dll/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>faceRecognition人脸识别</title>
+    <link href="https://blog.bidd.net/2018/09/05/2252f19b73a1/"/>
+    <id>https://blog.bidd.net/2018/09/05/2252f19b73a1/</id>
+    <published>2018-09-05T07:21:56.000Z</published>
+    <updated>2018-09-05T07:21:56.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;总有些东西需要存&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Python" scheme="https://blog.bidd.net/categories/Python/"/>
+    
+    
+    <category term="faceRecognition" scheme="https://blog.bidd.net/tags/faceRecognition/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OpenCv运动物体检测</title>
+    <link href="https://blog.bidd.net/2018/09/05/8900a17c559d/"/>
+    <id>https://blog.bidd.net/2018/09/05/8900a17c559d/</id>
+    <published>2018-09-05T07:15:46.000Z</published>
+    <updated>2018-09-05T07:15:46.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;总有些东西需要存&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Python" scheme="https://blog.bidd.net/categories/Python/"/>
+    
+    
+    <category term="opencv" scheme="https://blog.bidd.net/tags/opencv/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>编译安装opencv</title>
+    <link href="https://blog.bidd.net/2018/09/04/067eff777463/"/>
+    <id>https://blog.bidd.net/2018/09/04/067eff777463/</id>
+    <published>2018-09-04T01:12:44.000Z</published>
+    <updated>2018-09-04T01:12:44.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;总有些坑需要记&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://blog.bidd.net/categories/Linux/"/>
+    
+    
+    <category term="opencv" scheme="https://blog.bidd.net/tags/opencv/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>音频频率和振幅分析</title>
+    <link href="https://blog.bidd.net/2018/08/01/a231a570de32/"/>
+    <id>https://blog.bidd.net/2018/08/01/a231a570de32/</id>
+    <published>2018-08-01T08:00:25.000Z</published>
+    <updated>2018-08-08T08:00:36.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;以备不时之需&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Python" scheme="https://blog.bidd.net/categories/Python/"/>
+    
+    
+    <category term="python" scheme="https://blog.bidd.net/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>抖音去广告及下载视频无水印</title>
+    <link href="https://blog.bidd.net/2018/06/29/f3a806089810/"/>
+    <id>https://blog.bidd.net/2018/06/29/f3a806089810/</id>
+    <published>2018-06-29T01:33:00.000Z</published>
+    <updated>2018-06-29T01:33:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;逆向真不是个煎蛋的事，对于我这种小白来说更加了，整了三天才整出来&lt;/p&gt;
+&lt;h1 id=&quot;参考文章&quot;&gt;&lt;a href=&quot;#参考文章&quot; class=&quot;headerlink&quot; title=&quot;参考文章&quot;&gt;&lt;/a&gt;参考文章&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://bbs.binmt.cc/thread-2634-1-2.html&quot;&gt;【实战破解】修改抖音无水印&lt;/a&gt;&lt;br&gt;这个方法不完美，因为抖音做了判断，如果服务器上没有带水印的视频，则在本地添加，解决方法在下面&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.520monkey.com/archives/1251&quot;&gt;Android逆向之旅—破解过滤掉某音短视频的广告和视频水印问题&lt;/a&gt;&lt;br&gt;基于Xposed，我手机没root，不过学到了他的顺藤摸瓜大法。</summary>
+    
+    
+    
+    <category term="技术分享" scheme="https://blog.bidd.net/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="逆向" scheme="https://blog.bidd.net/tags/%E9%80%86%E5%90%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Hexo搭建</title>
+    <link href="https://blog.bidd.net/2018/06/15/524a2c691382/"/>
+    <id>https://blog.bidd.net/2018/06/15/524a2c691382/</id>
+    <published>2018-06-15T03:20:00.000Z</published>
+    <updated>2018-06-15T03:20:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记下备忘，windows下用的比特萌的&lt;a href=&quot;https://portablehexo.bitmoe.cn/&quot; title=&quot;HEXO Portable&quot;&gt;HEXO Portable&lt;/a&gt;，所以尝试在Linux上部署一个&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术教程" scheme="https://blog.bidd.net/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="hexo" scheme="https://blog.bidd.net/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派编译安装opencv3.4.1</title>
+    <link href="https://blog.bidd.net/2018/03/26/f0fcb10078af/"/>
+    <id>https://blog.bidd.net/2018/03/26/f0fcb10078af/</id>
+    <published>2018-03-26T00:23:00.000Z</published>
+    <updated>2023-11-15T07:56:18.461Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;树莓派官方源中是有opencv的，可以直接通过apt-get install python-opencv来安装，但是只支持python2使用，版本也不够新，所以只好自己编译了，这记下编译过程。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="RaspberryPi" scheme="https://blog.bidd.net/categories/RaspberryPi/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.bidd.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派安装Nginx+PHP7+MySQL(MariaDB)</title>
+    <link href="https://blog.bidd.net/2018/03/20/790ff870b980/"/>
+    <id>https://blog.bidd.net/2018/03/20/790ff870b980/</id>
+    <published>2018-03-20T14:58:00.000Z</published>
+    <updated>2018-03-26T00:40:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;安装Nginx&quot;&gt;&lt;a href=&quot;#安装Nginx&quot; class=&quot;headerlink&quot; title=&quot;安装Nginx&quot;&gt;&lt;/a&gt;安装Nginx&lt;/h1&gt;&lt;p&gt;我安装的是lite版官方镜像，默认预装了Apache2，所以这里先卸载Apache2，然后安装Nginx&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;apt-get remove –purge apache* -y&lt;br&gt;apt-get autoremove –purge -y&lt;br&gt;apt-get install nginx&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="RaspberryPi" scheme="https://blog.bidd.net/categories/RaspberryPi/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.bidd.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux 开启 TCP BBR</title>
+    <link href="https://blog.bidd.net/2018/01/22/276dcd9f280b/"/>
+    <id>https://blog.bidd.net/2018/01/22/276dcd9f280b/</id>
+    <published>2018-01-22T09:53:00.000Z</published>
+    <updated>2018-03-26T02:08:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;检查内核版本&lt;br&gt;Linux Kernel内核需4.9，过低的升级内核吧&lt;br&gt;查看内核版本命令：&lt;blockquote&gt;
+&lt;p&gt;uname -a&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://blog.bidd.net/categories/Linux/"/>
+    
+    
+    <category term="bbr" scheme="https://blog.bidd.net/tags/bbr/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派音频接口噪音解决方案</title>
+    <link href="https://blog.bidd.net/2017/11/04/79aaf10bce79/"/>
+    <id>https://blog.bidd.net/2017/11/04/79aaf10bce79/</id>
+    <published>2017-11-04T08:45:00.000Z</published>
+    <updated>2018-03-26T02:06:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;有些人说没噪音，有些人说有噪音，然后就分不清是自己的派有问题还是其它原因。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="RaspberryPi" scheme="https://blog.bidd.net/categories/RaspberryPi/"/>
+    
+    
+    <category term="audio" scheme="https://blog.bidd.net/tags/audio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux计划任务crontab用法</title>
+    <link href="https://blog.bidd.net/2017/11/04/9ed21ef0ef30/"/>
+    <id>https://blog.bidd.net/2017/11/04/9ed21ef0ef30/</id>
+    <published>2017-11-04T04:30:00.000Z</published>
+    <updated>2023-11-15T07:56:18.457Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;crontab命令&quot;&gt;&lt;a href=&quot;#crontab命令&quot; class=&quot;headerlink&quot; title=&quot;crontab命令&quot;&gt;&lt;/a&gt;crontab命令&lt;/h1&gt;&lt;p&gt;crontab命令被用来提交和管理用户的需要周期性执行的任务，与windows下的计划任务类似，当安装完成操作系统后，默认会安装此服务工具，并且会自动启动crond进程，&lt;br&gt;crond进程每分钟会定期检查是否有要执行的任务，如果有要执行的任务，则自动执行该任务。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://blog.bidd.net/categories/Linux/"/>
+    
+    
+    <category term="crontab" scheme="https://blog.bidd.net/tags/crontab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派在线语音合成</title>
+    <link href="https://blog.bidd.net/2017/11/01/c3ab16492310/"/>
+    <id>https://blog.bidd.net/2017/11/01/c3ab16492310/</id>
+    <published>2017-11-01T05:34:00.000Z</published>
+    <updated>2018-03-26T02:06:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;网上找了一个百度文本转语音的python脚本，自己转了一份shell，待需。&lt;br&gt;使用之前应当先去申请应用,拿到api_key和api_secert&lt;br&gt;申请地址&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://yuyin.baidu.com/&quot;&gt;http://yuyin.baidu.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="RaspberryPi" scheme="https://blog.bidd.net/categories/RaspberryPi/"/>
+    
+    
+    <category term="tts" scheme="https://blog.bidd.net/tags/tts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shell时间差计算</title>
+    <link href="https://blog.bidd.net/2017/10/26/8e10f84b9498/"/>
+    <id>https://blog.bidd.net/2017/10/26/8e10f84b9498/</id>
+    <published>2017-10-26T04:11:00.000Z</published>
+    <updated>2018-03-26T02:03:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;starttime&amp;#x3D;&lt;code&gt;date +&amp;#39;%Y-%m-%d %H:%M:%S&amp;#39;&lt;/code&gt;&lt;br&gt;#执行程序&lt;br&gt;endtime&amp;#x3D;&lt;code&gt;date +&amp;#39;%Y-%m-%d %H:%M:%S&amp;#39;&lt;/code&gt;&lt;br&gt;start_seconds&amp;#x3D;$(date –date&amp;#x3D;”$starttime” +%s);&lt;br&gt;end_seconds&amp;#x3D;$(date –date&amp;#x3D;”$endtime” +%s);&lt;br&gt;echo “本次运行时间： “$((end_seconds-start_seconds))”s”&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://blog.bidd.net/categories/Linux/"/>
+    
+    
+    <category term="shell" scheme="https://blog.bidd.net/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shell比较符</title>
+    <link href="https://blog.bidd.net/2017/10/26/4fe74ea1d39f/"/>
+    <id>https://blog.bidd.net/2017/10/26/4fe74ea1d39f/</id>
+    <published>2017-10-26T04:11:00.000Z</published>
+    <updated>2018-03-26T02:03:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;整数比较&lt;blockquote&gt;
+&lt;p&gt;-eq 等于,如:if [ “$a” -eq “$b” ]&lt;br&gt;-ne 不等于,如:if [ “$a” -ne “$b” ]&lt;br&gt;-gt 大于,如:if [ “$a” -gt “$b” ]&lt;br&gt;-ge 大于等于,如:if [ “$a” -ge “$b” ]&lt;br&gt;-lt 小于,如:if [ “$a” -lt “$b” ]&lt;br&gt;-le 小于等于,如:if [ “$a” -le “$b” ]&lt;br&gt;&amp;lt; 小于(需要双括号),如:((“$a” &amp;lt; “$b”))&lt;br&gt;&amp;lt;&amp;#x3D; 小于等于(需要双括号),如:((“$a” &amp;lt;&amp;#x3D; “$b”))&lt;br&gt;大于(需要双括号),如:((“$a” &amp;gt; “$b”))&lt;br&gt;&amp;#x3D; 大于等于(需要双括号),如:((“$a” &amp;gt;&amp;#x3D; “$b”))&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://blog.bidd.net/categories/Linux/"/>
+    
+    
+    <category term="shell" scheme="https://blog.bidd.net/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shell脚本读取配置文件</title>
+    <link href="https://blog.bidd.net/2017/10/26/c2286c255ef9/"/>
+    <id>https://blog.bidd.net/2017/10/26/c2286c255ef9/</id>
+    <published>2017-10-26T01:11:00.000Z</published>
+    <updated>2018-03-26T02:03:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近在鼓捣树莓派，用到了百度语音服务，其中access-token需要保存下来，所以就需要读取配置。&lt;br&gt;配置文件baidu.ini内容：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[baidu]&lt;br&gt;time&amp;#x3D;20171026&lt;br&gt;access_token&amp;#x3D;123456&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://blog.bidd.net/categories/Linux/"/>
+    
+    
+    <category term="shell" scheme="https://blog.bidd.net/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL5.7解压版安装教程</title>
+    <link href="https://blog.bidd.net/2017/10/18/1f9ab37fb660/"/>
+    <id>https://blog.bidd.net/2017/10/18/1f9ab37fb660/</id>
+    <published>2017-10-18T09:44:00.000Z</published>
+    <updated>2018-03-26T02:03:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;网上坑比较多，整理出来备忘&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;版本&lt;br&gt;mysql-5.7.20-winx64&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="技术教程" scheme="https://blog.bidd.net/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="mysql" scheme="https://blog.bidd.net/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>某电安卓模拟器去广告教程</title>
+    <link href="https://blog.bidd.net/2017/09/13/ca370035b769/"/>
+    <id>https://blog.bidd.net/2017/09/13/ca370035b769/</id>
+    <published>2017-09-13T12:11:02.000Z</published>
+    <updated>2018-07-06T03:44:23.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;什么模拟器不多说，毕竟目前还是比较良心的一款了，发出来也许只是提醒下官方该注意了吧。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.bidd.net/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="去广告" scheme="https://blog.bidd.net/tags/%E5%8E%BB%E5%B9%BF%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一个很有意思的访客统计插件</title>
+    <link href="https://blog.bidd.net/2017/08/04/faffeaeaa866/"/>
+    <id>https://blog.bidd.net/2017/08/04/faffeaeaa866/</id>
+    <published>2017-08-04T01:27:24.000Z</published>
+    <updated>2018-03-26T01:59:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;通过一个3D地球来展示网站访客地域等信息，可至官网自定义功能，这东西还是不错的。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.bidd.net/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="统计" scheme="https://blog.bidd.net/tags/%E7%BB%9F%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PowerShell控制台重置配色命令</title>
+    <link href="https://blog.bidd.net/2017/08/01/e346cda3a55a/"/>
+    <id>https://blog.bidd.net/2017/08/01/e346cda3a55a/</id>
+    <published>2017-08-01T08:12:01.000Z</published>
+    <updated>2017-08-01T08:12:03.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;源于默认配色不好看，想自定义配色，但是发现改了默认配色，用Shift+右键打开PowerShell并没有变化，&lt;br&gt;而更改属性中的配色有效果却没法选择我想要的Courier New字体。所以百度出了一条命令，用于重置控制台设置为默认设置&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.bidd.net/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.bidd.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="PowerShell" scheme="https://blog.bidd.net/tags/PowerShell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>正则表达式笔记</title>
+    <link href="https://blog.bidd.net/2017/07/25/4c6d4b756cf6/"/>
+    <id>https://blog.bidd.net/2017/07/25/4c6d4b756cf6/</id>
+    <published>2017-07-25T14:05:00.000Z</published>
+    <updated>2017-07-25T14:05:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;记录一些正则表达式，方便查询&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="技术分享" scheme="https://blog.bidd.net/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.bidd.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="正则表达式" scheme="https://blog.bidd.net/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>svn checkout排除文件或文件夹</title>
+    <link href="https://blog.bidd.net/2017/07/20/79caeb14afe4/"/>
+    <id>https://blog.bidd.net/2017/07/20/79caeb14afe4/</id>
+    <published>2017-07-20T06:15:00.000Z</published>
+    <updated>2017-07-21T02:07:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;从svn1.5版开始，提供了稀疏目录(Sparse Directories)功能，允许对目录设置深度（depth），&lt;br&gt;这个设置可以保存在工作目录上，以后svn update等命令都在这个设置下工作。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="技术分享" scheme="https://blog.bidd.net/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="svn" scheme="https://blog.bidd.net/tags/svn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Alpha、Beta、RC、GA版本的区别</title>
+    <link href="https://blog.bidd.net/2017/07/14/48bd6052b6c1/"/>
+    <id>https://blog.bidd.net/2017/07/14/48bd6052b6c1/</id>
+    <published>2017-07-14T09:28:00.000Z</published>
+    <updated>2017-07-14T09:28:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Alpha：是内部测试版,一般不向外部发布,会有很多Bug.一般只有测试人员使用。&lt;/p&gt;
+&lt;p&gt;Beta：也是测试版，这个阶段的版本会一直加入新的功能。在Alpha版之后推出。&lt;/p&gt;
+&lt;p&gt;RC：(Release　Candidate) 顾名思义么 ! 用在软件上就是候选版本。系统平台上就是发行候选版本。RC版不会再加入新的功能了，主要着重于除错。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="知识" scheme="https://blog.bidd.net/categories/%E7%9F%A5%E8%AF%86/"/>
+    
+    
+    <category term="版本" scheme="https://blog.bidd.net/tags/%E7%89%88%E6%9C%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS给页面添加水印</title>
+    <link href="https://blog.bidd.net/2017/07/11/6268729edfa4/"/>
+    <id>https://blog.bidd.net/2017/07/11/6268729edfa4/</id>
+    <published>2017-07-11T09:37:00.000Z</published>
+    <updated>2017-07-11T09:37:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;有些后端管理系统，因为业务逻辑的需要，需要加上水印，下面就是水印方法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/categories/JavaScript/"/>
+    
+    
+    <category term="水印" scheme="https://blog.bidd.net/tags/%E6%B0%B4%E5%8D%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Integer缓存机制</title>
+    <link href="https://blog.bidd.net/2017/07/10/9b12b65cdd84/"/>
+    <id>https://blog.bidd.net/2017/07/10/9b12b65cdd84/</id>
+    <published>2017-07-10T13:28:00.000Z</published>
+    <updated>2017-07-10T13:43:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;四个Integer变量&lt;br&gt;i1、i2赋值128，System.out.println(i1&amp;#x3D;&amp;#x3D;i2)输出false&lt;br&gt;i3、i4赋值127，System.out.println(i3&amp;#x3D;&amp;#x3D;i4)输出true&lt;br&gt;不是无意中看到，还真不知道有这机制，果断记一笔。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.bidd.net/categories/Java/"/>
+    
+    
+    <category term="Integer" scheme="https://blog.bidd.net/tags/Integer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PhotoSwipe使用笔记</title>
+    <link href="https://blog.bidd.net/2017/07/06/dc5ee1b9880d/"/>
+    <id>https://blog.bidd.net/2017/07/06/dc5ee1b9880d/</id>
+    <published>2017-07-06T05:21:00.000Z</published>
+    <updated>2017-07-11T07:32:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;博客换了一套主题，发现没有图片预览的功能，花了点时间整了个全局图片预览插件（PhotoSwipe.js）&lt;br&gt;之所以选择PhotoSwipe.js，是因为它强大的兼容性，对于我这个小站来说，绰绰有余了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/categories/JavaScript/"/>
+    
+    
+    <category term="PhotoSwipe" scheme="https://blog.bidd.net/tags/PhotoSwipe/"/>
+    
+    <category term="笔记" scheme="https://blog.bidd.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS实现页面切换保持音乐播放</title>
+    <link href="https://blog.bidd.net/2017/07/01/6e6ec3141bdc/"/>
+    <id>https://blog.bidd.net/2017/07/01/6e6ec3141bdc/</id>
+    <published>2017-07-01T14:38:00.000Z</published>
+    <updated>2018-03-26T01:54:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天网易云给我推荐了一首程嘉敏的《蠢货》，这风格挺和我口味，真心不知道网易云怎么算出来我好这口的。&lt;br&gt;单曲不过瘾，花了点时间整上博客背景音乐了，因为是静态博客，所以用JS让音乐在页面切换中能继续播放（貌似是我很久之前就有的想法，正好今天实现了）&lt;br&gt;原本是用的cookie存储的，但多了一堆存取cookie的代码，没用过Html5的localStorage ，正好今天试一试水&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术分享" scheme="https://blog.bidd.net/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS带密码加密解密</title>
+    <link href="https://blog.bidd.net/2017/07/01/f9691decb10b/"/>
+    <id>https://blog.bidd.net/2017/07/01/f9691decb10b/</id>
+    <published>2017-07-01T08:04:00.000Z</published>
+    <updated>2017-07-01T08:04:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;来源网络，留下备用，后期加入相册功能中，毕竟现在相册唬人的加密有点太那个。。。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术分享" scheme="https://blog.bidd.net/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringMVC+MyBaits获取SqlSession和Service对象</title>
+    <link href="https://blog.bidd.net/2017/06/27/ceb4b0c8ecb9/"/>
+    <id>https://blog.bidd.net/2017/06/27/ceb4b0c8ecb9/</id>
+    <published>2017-06-27T01:52:00.000Z</published>
+    <updated>2017-06-27T01:52:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;当普通JAVA类或者JSP需要使用service中的方法或者执行sql时使用&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Spring" scheme="https://blog.bidd.net/categories/Spring/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>InputStream转String乱码解决方法</title>
+    <link href="https://blog.bidd.net/2017/06/09/f1ccd5778092/"/>
+    <id>https://blog.bidd.net/2017/06/09/f1ccd5778092/</id>
+    <published>2017-06-09T07:26:00.000Z</published>
+    <updated>2018-03-26T01:52:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;来源于网络，用以备忘&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.bidd.net/categories/Java/"/>
+    
+    
+    <category term="InputStream" scheme="https://blog.bidd.net/tags/InputStream/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JPEG图片渐进式处理（Progressive）</title>
+    <link href="https://blog.bidd.net/2017/05/03/8e3a6787fcea/"/>
+    <id>https://blog.bidd.net/2017/05/03/8e3a6787fcea/</id>
+    <published>2017-05-03T02:06:00.000Z</published>
+    <updated>2017-05-03T02:29:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;每次逛百度图片时，很好奇它的图片是怎么从模糊到清晰变化的，开始以为时代码上的处理，直到后来无意发现来jpg的编码格式是有Baseline JPEG（标准型）和Progressive JPEG（渐进式）两种。两种格式有相同尺寸以及图像数据，他们的扩展名也是相同的，唯一的区别是显示的方式不同。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术分享" scheme="https://blog.bidd.net/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="Progressive" scheme="https://blog.bidd.net/tags/Progressive/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android常用数据存储</title>
+    <link href="https://blog.bidd.net/2017/04/23/d95fe20f6005/"/>
+    <id>https://blog.bidd.net/2017/04/23/d95fe20f6005/</id>
+    <published>2017-04-23T09:36:00.000Z</published>
+    <updated>2018-03-26T01:40:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;SharedPreferences存储&quot;&gt;&lt;a href=&quot;#SharedPreferences存储&quot; class=&quot;headerlink&quot; title=&quot;SharedPreferences存储&quot;&gt;&lt;/a&gt;SharedPreferences存储&lt;/h1&gt;&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;SharePreferences是用来存储一些简单配置信息的一种机制，使用Map数据结构来存储数据，以键值对的方式存储，采用了XML格式将数据存储到设备中。&lt;br&gt;例如保存登录用户的用户名和密码。只能在同一个包内使用，不能在不同的包之间使用，其实也就是说只能在创建它的应用中使用，其他应用无法使用。&lt;br&gt;创建的存储文件保存在&amp;#x2F;data&amp;#x2F;data&amp;#x2F;&lt;package name&gt;&amp;#x2F;shares_prefs文件夹下。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.bidd.net/categories/Android/"/>
+    
+    
+    <category term="storager" scheme="https://blog.bidd.net/tags/storager/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java中逻辑与和逻辑或的区别</title>
+    <link href="https://blog.bidd.net/2017/04/22/4eedd9a8f0f3/"/>
+    <id>https://blog.bidd.net/2017/04/22/4eedd9a8f0f3/</id>
+    <published>2017-04-22T07:35:00.000Z</published>
+    <updated>2018-03-26T01:39:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;与操作：与操作分为两种，一种是普通与，另外一种是短路与：&lt;br&gt;普通与（&amp;amp;）：表示所有的判断条件都要执行，不管前面是否满足；&lt;br&gt;短路与（&amp;amp;&amp;amp;）：如果前面的条件已经是false了，那么后面的条件不需要再进行任何的判断；</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.bidd.net/categories/Java/"/>
+    
+    
+    <category term="逻辑" scheme="https://blog.bidd.net/tags/%E9%80%BB%E8%BE%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS异步加载</title>
+    <link href="https://blog.bidd.net/2017/04/21/987585f804d6/"/>
+    <id>https://blog.bidd.net/2017/04/21/987585f804d6/</id>
+    <published>2017-04-21T04:17:00.000Z</published>
+    <updated>2018-03-26T01:38:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;目前总共四种方法，各有长短，酌情选择。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;方法1：$(document).ready&lt;br&gt;利用jquery的ready，前提是需要引用jquery，兼容所有浏览器&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$(&lt;span class=&quot;variable language_&quot;&gt;document&lt;/span&gt;).&lt;span class=&quot;title function_&quot;&gt;ready&lt;/span&gt;(&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;title function_&quot;&gt;alert&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&amp;quot;Success !&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/categories/JavaScript/"/>
+    
+    
+    <category term="async" scheme="https://blog.bidd.net/tags/async/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java图片转ASCII字符画</title>
+    <link href="https://blog.bidd.net/2017/03/31/0b68116ee99f/"/>
+    <id>https://blog.bidd.net/2017/03/31/0b68116ee99f/</id>
+    <published>2017-03-31T01:51:00.000Z</published>
+    <updated>2017-06-16T03:12:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;先来一张看看效果(所用图片分辨率50x42)&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;                                                  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    #@@@@@@&amp;amp;      ;*$&amp;amp;$$$$$$$*!                   &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  $@@@@@@@@@@&lt;span class=&quot;meta&quot;&gt;@$&lt;/span&gt;;                 *&amp;amp;! $@@@@@@@*    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; o@@@@@@@@@@*                       ;@@@@@@@@@@.  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; *@@@@@@@@#                           o@@@@@@@@&amp;amp;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; o@@@@@@@*           .$#*.  !o$oo.     o@@@@@@@#  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  *@@@@@.       !o$o.o*$;  !o!  ;&amp;amp;!     o@@@@@&lt;span class=&quot;meta&quot;&gt;@$&lt;/span&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   .#@&lt;span class=&quot;meta&quot;&gt;@o&lt;/span&gt;        %@&amp;amp;###&lt;span class=&quot;meta&quot;&gt;@oo&lt;/span&gt;  .!#%@&amp;amp;o;.     *@@@@&amp;amp;   &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      %           ;!o;;!;    ;o!.!!.      &amp;amp;$!     &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     $               ;o;   .              .%      &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    %;             .!;       .             $      &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   .$            ;!.  .$&lt;span class=&quot;meta&quot;&gt;@$&lt;/span&gt;##o  !           %.     &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   #!            !o..;!.       .;.         o*     &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; &amp;amp;@#            . .@... !;!!o*%!..         ;@%    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;amp;@@@;              .@@@@@@@#$&amp;amp;.  ;         ;@@#   &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;amp;@@@@                      .    ;          *@@@#  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;amp;@@@@&lt;span class=&quot;meta&quot;&gt;@o&lt;/span&gt;              !o!!;.               .@#@@@# &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;amp;@@@@#@&lt;span class=&quot;meta&quot;&gt;@o&lt;/span&gt;                                #@@@@@@@*&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;amp;@@@@@@@@@#!                          !#@@@@@@@@&lt;span class=&quot;meta&quot;&gt;@o&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;amp;@@@@@@@@@@@@@%o.               ;*#@@@@@@@@@@@@@&lt;span class=&quot;meta&quot;&gt;@o&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;amp;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.bidd.net/categories/Java/"/>
+    
+    
+    <category term="ASCII" scheme="https://blog.bidd.net/tags/ASCII/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML图片懒加载及判断元素是否在可视区域</title>
+    <link href="https://blog.bidd.net/2017/03/29/6dd817f9f914/"/>
+    <id>https://blog.bidd.net/2017/03/29/6dd817f9f914/</id>
+    <published>2017-03-29T03:36:00.000Z</published>
+    <updated>2018-03-26T01:35:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近博客整了一个相册，浏览时一次性加载了所有图片，导致响应很慢，分页太麻烦，不想弄，于是查资料，实现懒加载。&lt;br&gt;原理是先生成所有img标签，src不给值，图片路径放到data-src属性中&lt;br&gt;如：&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;data-src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;#x27;/img/test.jpg&amp;#x27;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;然后通过js判断元素是不是在浏览器可视区域中&lt;br&gt;在可视就赋值给src，实现懒加载&lt;br&gt;判断是否在可视区域代码如下：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Html" scheme="https://blog.bidd.net/categories/Html/"/>
+    
+    
+    <category term="img" scheme="https://blog.bidd.net/tags/img/"/>
+    
+    <category term="Lazy load" scheme="https://blog.bidd.net/tags/Lazy-load/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java四种线程池的使用</title>
+    <link href="https://blog.bidd.net/2017/03/28/ff7673d08730/"/>
+    <id>https://blog.bidd.net/2017/03/28/ff7673d08730/</id>
+    <published>2017-03-28T10:07:00.000Z</published>
+    <updated>2018-03-26T01:32:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;Java通过Executors提供四种线程池，分别为：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;newCachedThreadPool&lt;br&gt;创建一个可缓存线程池，如果线程池长度超过处理需要，可灵活回收空闲线程，若无可回收，则新建线程。&lt;/li&gt;
+&lt;li&gt;newFixedThreadPool&lt;br&gt;创建一个定长线程池，可控制线程最大并发数，超出的线程会在队列中等待。&lt;/li&gt;
+&lt;li&gt;newScheduledThreadPool&lt;br&gt;创建一个定长线程池，支持定时及周期性任务执行。&lt;/li&gt;
+&lt;li&gt;newSingleThreadExecutor&lt;br&gt;创建一个单线程化的线程池，它只会用唯一的工作线程来执行任务，保证所有任务按照指定顺序(FIFO, LIFO, 优先级)执行。</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.bidd.net/categories/Java/"/>
+    
+    
+    <category term="Thread" scheme="https://blog.bidd.net/tags/Thread/"/>
+    
+    <category term="Pool" scheme="https://blog.bidd.net/tags/Pool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ul-li使用display-inline-block一行显示出现空格的解决方法</title>
+    <link href="https://blog.bidd.net/2017/03/22/0d11edba7a39/"/>
+    <id>https://blog.bidd.net/2017/03/22/0d11edba7a39/</id>
+    <published>2017-03-22T03:26:00.000Z</published>
+    <updated>2018-03-26T01:31:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;解决方法一&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;1&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;2&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;3&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;4&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+没错，不换行就没一点事，但是代码美观就欠缺了</summary>
+    
+    
+    
+    <category term="Html" scheme="https://blog.bidd.net/categories/Html/"/>
+    
+    
+    <category term="Html" scheme="https://blog.bidd.net/tags/Html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>exe携带大附件方法</title>
+    <link href="https://blog.bidd.net/2017/03/20/03b6f5df76be/"/>
+    <id>https://blog.bidd.net/2017/03/20/03b6f5df76be/</id>
+    <published>2017-03-20T05:14:00.000Z</published>
+    <updated>2018-03-26T01:30:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;易语言静态编译，如果资源文件太大，就会提示内存不足&lt;br&gt;这里提供一个方法，让exe文件能够携带大附件&lt;br&gt;只用易语言测试，其他自测&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="易语言" scheme="https://blog.bidd.net/categories/%E6%98%93%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="e" scheme="https://blog.bidd.net/tags/e/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySql导入导出</title>
+    <link href="https://blog.bidd.net/2017/03/15/28b34c3f758e/"/>
+    <id>https://blog.bidd.net/2017/03/15/28b34c3f758e/</id>
+    <published>2017-03-15T06:17:00.000Z</published>
+    <updated>2018-03-26T01:28:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;导出整个数据库&lt;blockquote&gt;
+&lt;p&gt;mysqldump -u 用户名 -p 数据库名 &amp;gt; 导出的文件名&lt;br&gt;mysqldump -u dbuser -p dbname &amp;gt; dbname.sql&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="MySql" scheme="https://blog.bidd.net/categories/MySql/"/>
+    
+    
+    <category term="MySql" scheme="https://blog.bidd.net/tags/MySql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS编码和解码</title>
+    <link href="https://blog.bidd.net/2017/03/15/c1a6f9c09eea/"/>
+    <id>https://blog.bidd.net/2017/03/15/c1a6f9c09eea/</id>
+    <published>2017-03-15T02:28:00.000Z</published>
+    <updated>2018-03-26T01:27:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文讨论如何对传递参数用JS编码与解码&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;编码与解码方法的对应关系&lt;br&gt;escape ——————– unescape&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;encodeURI ——————– decodeURI&lt;/p&gt;
+&lt;p&gt;encodeURIComponent ——————– encodeURIComponent&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/categories/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android创建悬浮窗</title>
+    <link href="https://blog.bidd.net/2017/03/11/bd6947742943/"/>
+    <id>https://blog.bidd.net/2017/03/11/bd6947742943/</id>
+    <published>2017-03-11T13:10:00.000Z</published>
+    <updated>2018-08-08T07:38:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;简单的代码快速创建悬浮窗&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.bidd.net/categories/Android/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JS较完美判断当前浏览器及版本</title>
+    <link href="https://blog.bidd.net/2017/03/01/41248137eb06/"/>
+    <id>https://blog.bidd.net/2017/03/01/41248137eb06/</id>
+    <published>2017-03-01T08:08:22.000Z</published>
+    <updated>2018-03-26T01:25:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;来源于网络，用以备忘</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/categories/JavaScript/"/>
+    
+    
+    <category term="browser" scheme="https://blog.bidd.net/tags/browser/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JGrid表格出现水平滚动条解决方法</title>
+    <link href="https://blog.bidd.net/2017/02/28/8bc1f42a02ad/"/>
+    <id>https://blog.bidd.net/2017/02/28/8bc1f42a02ad/</id>
+    <published>2017-02-28T03:41:22.000Z</published>
+    <updated>2018-03-26T01:25:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;百度说是只有谷歌浏览器会出现&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Html" scheme="https://blog.bidd.net/categories/Html/"/>
+    
+    
+    <category term="JSP" scheme="https://blog.bidd.net/tags/JSP/"/>
+    
+    <category term="JGrid" scheme="https://blog.bidd.net/tags/JGrid/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JSP 标准标签库（JSTL）</title>
+    <link href="https://blog.bidd.net/2017/02/28/de47db8bc2a3/"/>
+    <id>https://blog.bidd.net/2017/02/28/de47db8bc2a3/</id>
+    <published>2017-02-28T01:55:22.000Z</published>
+    <updated>2018-03-26T01:22:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;JSTL 库安装&lt;br&gt;Apache Tomcat安装JSTL 库步骤如下：&lt;br&gt;从Apache的标准标签库中下载的二进包(jakarta-taglibs-standard-current.zip)。&lt;br&gt;官方下载地址：&lt;a href=&quot;http://archive.apache.org/dist/jakarta/taglibs/standard/binaries/&quot;&gt;http://archive.apache.org/dist/jakarta/taglibs/standard/binaries/&lt;/a&gt;&lt;br&gt;下载jakarta-taglibs-standard-1.1.2.zip 包并解压，将jakarta-taglibs-standard-1.1.2&amp;#x2F;lib&amp;#x2F;下的两个jar文件：standard.jar和jstl.jar文件拷贝到&amp;#x2F;WEB-INF&amp;#x2F;lib&amp;#x2F;下。&lt;br&gt;接下来我们在 web.xml 文件中添加以下配置：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.bidd.net/categories/Java/"/>
+    
+    
+    <category term="JSP" scheme="https://blog.bidd.net/tags/JSP/"/>
+    
+    <category term="JSTL" scheme="https://blog.bidd.net/tags/JSTL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android APP杀不死（最大存活方法）</title>
+    <link href="https://blog.bidd.net/2017/02/27/cb6acfdbe4ca/"/>
+    <id>https://blog.bidd.net/2017/02/27/cb6acfdbe4ca/</id>
+    <published>2017-02-27T13:30:22.000Z</published>
+    <updated>2018-03-26T01:21:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;有很多APP和需求，需要让APP不被系统杀死。&lt;br&gt;然而，我在这里，必须明确的跟各位安卓开发者说的就是，这个需求就跟让物理学家发明永动机一样，是不可行的。&lt;br&gt;然而，我们却可以尽最大的可能性让APP存活下来。实现最大存活有多种方式，网上的各位大牛，也有列出方法，我也想在这里，系统的总结一下。&lt;br&gt;但暂时没能一下就全列出来，后面，想到哪个就再补上来，或者如果您有好的建议，直接在评论处给个建议，我会将您的建议列入。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.bidd.net/categories/Android/"/>
+    
+    
+    <category term="To kill" scheme="https://blog.bidd.net/tags/To-kill/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记事本(notepad)自动加注日期和时间</title>
+    <link href="https://blog.bidd.net/2017/02/26/f6b1eae81e95/"/>
+    <id>https://blog.bidd.net/2017/02/26/f6b1eae81e95/</id>
+    <published>2017-02-26T11:04:35.000Z</published>
+    <updated>2018-03-26T01:20:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;每次打开记事本，想在最后加上时间，表明什么时间改动过，手动太麻烦，然后通过百度，记事本有一个自动加的方法，记录下来&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术分享" scheme="https://blog.bidd.net/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="notepad" scheme="https://blog.bidd.net/tags/notepad/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS随机数</title>
+    <link href="https://blog.bidd.net/2017/02/26/c4b87265acff/"/>
+    <id>https://blog.bidd.net/2017/02/26/c4b87265acff/</id>
+    <published>2017-02-26T10:48:22.000Z</published>
+    <updated>2018-03-26T01:17:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;Math.random()&lt;br&gt;结果为0-1间的一个随机数(包括0,不包括1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Math：数学对象，提供对数据的数学计算。&lt;/li&gt;
+&lt;li&gt;Math.random(); 返回0和1间(包括0,不包括1)的一个随机数。&lt;/li&gt;
+&lt;li&gt;Math.ceil(n); 返回大于等于n的最小整数。&lt;br&gt;用Math.ceil(Math.random()*10);时，主要获取1到10的随机整数，取0的几率极小。</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/categories/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Autodesk Netfabb Premium破解方法</title>
+    <link href="https://blog.bidd.net/2017/02/23/0060256fe0e2/"/>
+    <id>https://blog.bidd.net/2017/02/23/0060256fe0e2/</id>
+    <published>2017-02-23T07:25:22.000Z</published>
+    <updated>2017-06-16T03:01:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;处理模型需要这东西，然后百度破解方法，真心被“输入序列号：066-66666666，激活码：A961，点击Next”这句坑死（我被坑了两次）&lt;br&gt;这里更正下，激活码是&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术教程" scheme="https://blog.bidd.net/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>onpropertychange替代方法</title>
+    <link href="https://blog.bidd.net/2017/02/16/69355e8e2265/"/>
+    <id>https://blog.bidd.net/2017/02/16/69355e8e2265/</id>
+    <published>2017-02-16T07:28:51.000Z</published>
+    <updated>2017-06-16T03:09:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;百度一堆什么oninput、onchang等等方法，都不是我要的，input:hidden,js更改value值得话，只有onpropertychange能监听到，所以研究出这个定时器检查方法&lt;br&gt;主要方法如下&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/categories/JavaScript/"/>
+    
+    
+    <category term="onpropertychange" scheme="https://blog.bidd.net/tags/onpropertychange/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java中文转简拼</title>
+    <link href="https://blog.bidd.net/2017/02/14/5e364d4320e2/"/>
+    <id>https://blog.bidd.net/2017/02/14/5e364d4320e2/</id>
+    <published>2017-02-14T07:22:09.000Z</published>
+    <updated>2023-11-15T07:56:18.457Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;用于将中文字符串转换成简拼&lt;br&gt;如：“你好abc123” -&amp;gt; “NHABC123”&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.bidd.net/categories/Java/"/>
+    
+    
+    <category term="中文转拼音" scheme="https://blog.bidd.net/tags/%E4%B8%AD%E6%96%87%E8%BD%AC%E6%8B%BC%E9%9F%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS身份证验证</title>
+    <link href="https://blog.bidd.net/2017/02/09/454d88002707/"/>
+    <id>https://blog.bidd.net/2017/02/09/454d88002707/</id>
+    <published>2017-02-09T06:05:44.000Z</published>
+    <updated>2018-03-26T01:14:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;号码的结构 公民身份号码是特征组合码，由十七位数字本体码和一位校验码组成。排列顺序从左至右依次为：&lt;br&gt;六位数字地址码，八位数字出生日期码，三位数字顺序码和一位数字校验码。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/categories/JavaScript/"/>
+    
+    
+    <category term="JS" scheme="https://blog.bidd.net/tags/JS/"/>
+    
+    <category term="身份证验证" scheme="https://blog.bidd.net/tags/%E8%BA%AB%E4%BB%BD%E8%AF%81%E9%AA%8C%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android开发板SHA1和发布版SHA1获取</title>
+    <link href="https://blog.bidd.net/2016/12/18/8341ed247df4/"/>
+    <id>https://blog.bidd.net/2016/12/18/8341ed247df4/</id>
+    <published>2016-12-18T12:04:35.000Z</published>
+    <updated>2018-03-26T01:11:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;开发版&lt;br&gt;打开命令行&lt;br&gt;cd 至用户目录&amp;#x2F;.android&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;keytool -list -v -keystore debug.keystore&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li</summary>
+      
+    
+    
+    
+    <category term="Android" scheme="https://blog.bidd.net/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://blog.bidd.net/tags/Android/"/>
+    
+    <category term="SHA1" scheme="https://blog.bidd.net/tags/SHA1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sql Server查询结果中添加自增列</title>
+    <link href="https://blog.bidd.net/2016/12/14/a46455c6895c/"/>
+    <id>https://blog.bidd.net/2016/12/14/a46455c6895c/</id>
+    <published>2016-12-14T15:29:23.000Z</published>
+    <updated>2018-03-26T01:01:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;方法一&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Row_Number&lt;/span&gt;() &lt;span class=&quot;keyword&quot;&gt;over&lt;/span&gt; ( &lt;span class=&quot;keyword&quot;&gt;order&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;by&lt;/span&gt; getdate() ) &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; init , &lt;span class=&quot;operator&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;FROM&lt;/span&gt; 表名&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="HTML5" scheme="https://blog.bidd.net/categories/HTML5/"/>
+    
+    
+    <category term="HTML5" scheme="https://blog.bidd.net/tags/HTML5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript 日期计算方法</title>
+    <link href="https://blog.bidd.net/2016/12/14/6c8a61901a11/"/>
+    <id>https://blog.bidd.net/2016/12/14/6c8a61901a11/</id>
+    <published>2016-12-14T13:53:00.000Z</published>
+    <updated>2018-03-26T00:58:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;span style=&quot;color:red;&quot;&gt;需注意Date()中的月是从0开始的&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根据年月取周数和周一到周五的日期</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/categories/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML5多线程Web Worker</title>
+    <link href="https://blog.bidd.net/2016/12/09/9410f9d4b2bd/"/>
+    <id>https://blog.bidd.net/2016/12/09/9410f9d4b2bd/</id>
+    <published>2016-12-09T07:08:52.000Z</published>
+    <updated>2018-03-26T00:57:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;主线程js&quot;&gt;&lt;a href=&quot;#主线程js&quot; class=&quot;headerlink&quot; title=&quot;主线程js&quot;&gt;&lt;/a&gt;主线程js&lt;/h1&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//创建worker对象，参数为需线程执行的js文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; worker = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;title class_&quot;&gt;Worker&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&amp;#x27;new.js&amp;#x27;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; ar=&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;title class_&quot;&gt;Array&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; obj=&lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;title class_&quot;&gt;Object&lt;/span&gt;();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;obj.&lt;span class=&quot;property&quot;&gt;s&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;123&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ar[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;]=obj;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;ar[&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;]=&lt;span class=&quot;string&quot;&gt;&amp;quot;1234&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//想new.js发送数据&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;worker.&lt;span class=&quot;title function_&quot;&gt;postMessage&lt;/span&gt;(ar);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//接收worker传递过来的数据&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;worker.&lt;span class=&quot;property&quot;&gt;onmessage&lt;/span&gt; = &lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;data&lt;/span&gt;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//输出传回的数据&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;variable language_&quot;&gt;console&lt;/span&gt;.&lt;span class=&quot;title function_&quot;&gt;log&lt;/span&gt;(data.&lt;span class=&quot;property&quot;&gt;data&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    worker.&lt;span class=&quot;title function_&quot;&gt;terminate&lt;/span&gt;();&lt;span class=&quot;comment&quot;&gt;//终止线程&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="HTML5" scheme="https://blog.bidd.net/categories/HTML5/"/>
+    
+    
+    <category term="HTML5" scheme="https://blog.bidd.net/tags/HTML5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>替换mysql中某个字段中的字符</title>
+    <link href="https://blog.bidd.net/2016/11/30/33ecdcf562ef/"/>
+    <id>https://blog.bidd.net/2016/11/30/33ecdcf562ef/</id>
+    <published>2016-11-30T04:06:19.000Z</published>
+    <updated>2018-03-26T00:57:00.000Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;用于替换字段中的值的某字符串&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;update wp_posts set post_content &amp;#x3D; replace(post_content,’[&amp;#x2F;java]’,’[&amp;#x2F;pre]’);&lt;/p&gt;
+&lt;/bloc</summary>
+      
+    
+    
+    
+    <category term="MySql" scheme="https://blog.bidd.net/categories/MySql/"/>
+    
+    
+    <category term="MySql" scheme="https://blog.bidd.net/tags/MySql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>键盘键控代码值和 ASCII</title>
+    <link href="https://blog.bidd.net/2016/10/31/db2632af7746/"/>
+    <id>https://blog.bidd.net/2016/10/31/db2632af7746/</id>
+    <published>2016-10-31T05:58:43.000Z</published>
+    <updated>2018-03-26T00:53:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;标准键盘&quot;&gt;&lt;a href=&quot;#标准键盘&quot; class=&quot;headerlink&quot; title=&quot;标准键盘&quot;&gt;&lt;/a&gt;标准键盘&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="PracticalQuery" scheme="https://blog.bidd.net/categories/PracticalQuery/"/>
+    
+    
+    <category term="KeyCode" scheme="https://blog.bidd.net/tags/KeyCode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RGB颜色对照表</title>
+    <link href="https://blog.bidd.net/2016/10/27/498475ecfeda/"/>
+    <id>https://blog.bidd.net/2016/10/27/498475ecfeda/</id>
+    <published>2016-10-27T07:15:24.000Z</published>
+    <updated>2018-03-26T00:46:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;方便查询&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="PracticalQuery" scheme="https://blog.bidd.net/categories/PracticalQuery/"/>
+    
+    
+    <category term="RGB" scheme="https://blog.bidd.net/tags/RGB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AJAX POST数据中有特殊符号导致数据丢失的解决方法</title>
+    <link href="https://blog.bidd.net/2016/09/22/dcf0ab52342a/"/>
+    <id>https://blog.bidd.net/2016/09/22/dcf0ab52342a/</id>
+    <published>2016-09-22T05:27:22.000Z</published>
+    <updated>2018-03-26T00:46:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;使用Ajax传送数据时，当数据中存在加号(+)、连接符(&amp;amp;)或者百分号(%)时，服务器端接收数据时会丢失数据。&lt;br&gt;分析Ajax传送数据的格式与Javascript的语法：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;“+”号：JavaScript解析为字符串连接符，所以服务器端接收数据时”+”会丢失变空格。&lt;/li&gt;
+&lt;li&gt;“&amp;amp;”号：JavaScript解析为变量连接符，所以服务器端接收数据时&amp;amp;符号以后的数据都会丢失变空格。&lt;br&gt;解决方法是通过正则表达式进行编码替换(假设postStr是你想通过ajax传送的数据字符串)</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://blog.bidd.net/categories/JavaScript/"/>
+    
+    
+    <category term="Ajax" scheme="https://blog.bidd.net/tags/Ajax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android之Activity切换和数据传递</title>
+    <link href="https://blog.bidd.net/2016/07/25/bdb9b15a5a4b/"/>
+    <id>https://blog.bidd.net/2016/07/25/bdb9b15a5a4b/</id>
+    <published>2016-07-25T15:20:32.000Z</published>
+    <updated>2018-03-26T00:46:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;来源于网络，用以备忘&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.bidd.net/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://blog.bidd.net/tags/Android/"/>
+    
+    <category term="Activity" scheme="https://blog.bidd.net/tags/Activity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BItmap和String互转</title>
+    <link href="https://blog.bidd.net/2016/07/25/7a5d2c0771d3/"/>
+    <id>https://blog.bidd.net/2016/07/25/7a5d2c0771d3/</id>
+    <published>2016-07-25T15:17:42.000Z</published>
+    <updated>2018-03-26T00:46:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;来源于网络，用以备忘&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Java" scheme="https://blog.bidd.net/categories/Java/"/>
+    
+    
+    <category term="Bitmap" scheme="https://blog.bidd.net/tags/Bitmap/"/>
+    
+    <category term="Java" scheme="https://blog.bidd.net/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android SimpleAdapter传入Bitmap</title>
+    <link href="https://blog.bidd.net/2016/07/25/bab7f01c8cd2/"/>
+    <id>https://blog.bidd.net/2016/07/25/bab7f01c8cd2/</id>
+    <published>2016-07-25T15:13:00.000Z</published>
+    <updated>2018-03-26T00:43:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;来源于网络，用以备忘&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Android" scheme="https://blog.bidd.net/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="https://blog.bidd.net/tags/Android/"/>
+    
+    <category term="SimpleAdapter" scheme="https://blog.bidd.net/tags/SimpleAdapter/"/>
+    
+    <category term="Bitmap" scheme="https://blog.bidd.net/tags/Bitmap/"/>
+    
+  </entry>
+  
+</feed>
